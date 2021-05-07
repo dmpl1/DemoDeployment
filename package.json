@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "jest-sonar-reporter": "^2.0.0",
     "sonarqube-scanner": "^2.8.0"
   },
