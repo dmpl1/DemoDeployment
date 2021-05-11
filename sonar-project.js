@@ -4,7 +4,7 @@ sonarqubeScanner(
     serverUrl: "http://localhost:9000",
     token: "${env.sonarDeploymentDemoToken}",
     options: {
-      "sonar.sources": "./src",
+      "sonar.sources": "*",
       "sonar.tests": "./src/App.test.js",
       "sonar.test.inclusions": "./src/*.test.js",
       "sonar.typescript.lcov.reportPaths": "coverage/lcov.info",
