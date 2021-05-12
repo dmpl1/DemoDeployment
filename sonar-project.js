@@ -10,7 +10,7 @@ sonarqubeScanner(
       "sonar.typescript.lcov.reportPaths": "coverage/lcov.info",
       "sonar.testExecutionReportPaths": "reports/test-report.xml",
       "sonar.qualitygate.wait": true,
-      "sonar.qualitygate.timeout": "10000"
+      "sonar.qualitygate.timeout": 60000
     },
   },
   () => {},
